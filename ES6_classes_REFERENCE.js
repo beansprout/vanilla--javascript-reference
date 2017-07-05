@@ -21,13 +21,20 @@ const filter = (elements, cb) => {
   return result;
 };
 
-//test functions
 const isGuineaPig = (obj) => obj.species === 'guinea pig';
-const isSnake = (obj) => obj.species === 'snake';
 
 filter(arr, isGuineaPig);
 console.log('filter(arr, isGuineaPig): ', filter(arr, isGuineaPig));
 
-filter(arr, isSnake);
-console.log('filter(arr, isSnake): ', filter(arr, isSnake));  // []
 
+/* eslint-disable no-undef */ // Remove this comment once you write your classes.
+
+
+// Create a class called `Animal` and a class called `Cat`.
+// `Cat` should extend the `Animal` class.
+// Animal and Cat should both have a parameter called `options` in their constructors.
+// Animal should have the property `age` that's set in the constructor and the method
+// `growOlder` that returns the age.
+// Cat should have the property `name` that is set in the constructor and the method
+// `meow` that should return the string `<name> meowed!` where `<name>` is the `name`
+// property set on the Cat instance.
