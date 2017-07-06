@@ -9,7 +9,7 @@
   /*
   Parameters:
   callback: function to call on each element
-      - callaback parameters:
+      - callback parameters:
           -accumulator (accumul;ates cb's return values)
           -currentValue (the current element being processed in array)
           -currentIndex (index being processed - starts at 0)
