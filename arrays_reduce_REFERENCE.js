@@ -36,7 +36,7 @@ const reduce = (elements, cb, memo) => {
 };
 
 const sum = (acc, x) => {
-  return  acc + x;
+  return  acc + x;cd ../
 };
 
 console.log(reduce(arr, sum)); 
